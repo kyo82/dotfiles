@@ -23,6 +23,9 @@ PROMPT='%(?.%B%F{purple}▲%f%b.%B%F{red}x%f%b) '
 # Korean
 LANG=ko_KR.UTF-8
 
+# Dotfiles
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
 # Alias
 alias atop="sudo asitop"
 alias bye="exit"
