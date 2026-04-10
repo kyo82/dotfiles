@@ -3,7 +3,7 @@
   "plan": "max",
   "displayMode": "custom",
   "lines": [
-    ["projectInfo", "model", "context", "rateLimit5h", "rateLimit7d", "cost"]
+    ["projectInfo", "model", "context", "rateLimit5h", "rateLimit7d"]
   ],
   "cache": {
     "ttlSeconds": 60
