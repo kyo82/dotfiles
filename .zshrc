@@ -30,7 +30,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias atop="sudo asitop"
 alias bye="exit"
 alias cask="brew install --cask"
-alias cc="claude --enable-auto-mode"
+alias cc="claude"
 alias cl="clear"
 alias code="zed-preview"
 alias cdx="codex"
@@ -69,3 +69,6 @@ export PATH="$PATH:/Users/kyo/.lmstudio/bin"
 export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
+
+# Claude Code - disable flickering
+export CLAUDE_CODE_NO_FLICKER=1
