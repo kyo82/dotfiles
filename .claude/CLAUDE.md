@@ -3,5 +3,4 @@
   - 성공: Funk.aiff
   - 실패: Basso.aiff
   - 기타: Purr.aiff
-- `deploy`할 때 `open raycast://confetti`로 confetti 실행하라
 - plan mode일 때는 항상 use context7, ultrathink 하라
