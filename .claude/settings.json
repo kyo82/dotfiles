@@ -4,7 +4,8 @@
     "CLAUDE_CODE_DISABLE_1M_CONTEXT": "1",
     "CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING": "1",
     "CLAUDE_CODE_DISABLE_AUTO_MEMORY": "1",
-    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet"
+    "CLAUDE_CODE_SUBAGENT_MODEL": "sonnet",
+    "CLAUDE_CODE_DISABLE_GIT_INSTRUCTIONS": "1"
   },
   "permissions": {
     "allow": [
@@ -21,7 +22,8 @@
     "code-simplifier@claude-plugins-official": true,
     "claude-dashboard@claude-dashboard": true,
     "frontend-design@claude-plugins-official": true,
-    "supabase@supabase-agent-skills": true
+    "supabase@supabase-agent-skills": true,
+    "code-review@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "claude-dashboard": {
