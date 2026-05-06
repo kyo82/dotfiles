@@ -29,7 +29,9 @@
     "skill-creator@claude-plugins-official": true,
     "claude-md-management@claude-plugins-official": true,
     "chrome-devtools-mcp@claude-plugins-official": true,
-    "postgres-best-practices@supabase-agent-skills": true
+    "postgres-best-practices@supabase-agent-skills": true,
+    "superpowers@claude-plugins-official": true,
+    "supabase@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "claude-dashboard": {
@@ -50,6 +52,9 @@
   "alwaysThinkingEnabled": true,
   "effortLevel": "high",
   "skipDangerousModePermissionPrompt": true,
+  "theme": "auto",
+  "remoteControlAtStartup": false,
+  "agentPushNotifEnabled": true,
   "skipAutoPermissionPrompt": true,
   "voiceEnabled": true,
   "mcpServers": {
@@ -61,7 +66,5 @@
       ],
       "env": {}
     }
-  },
-  "theme": "light",
-  "remoteControlAtStartup": false
+  }
 }
