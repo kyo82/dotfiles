@@ -57,16 +57,6 @@ export PATH="/opt/homebrew/opt/node@24/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/node@24/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/node@24/include"
 
-# Added by Antigravity
-export PATH="/Users/kyo/.antigravity/antigravity/bin:$PATH"
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/kyo/.lmstudio/bin"
-# End of LM Studio CLI section
-
-# Obsidian CLI
-export PATH="$PATH:/Applications/Obsidian.app/Contents/MacOS"
-export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 # Claude Code - disable flickering
