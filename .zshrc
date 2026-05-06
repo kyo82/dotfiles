@@ -43,7 +43,6 @@ alias sb="supabase"
 alias wg="wrangler"
 alias ll="ls -lhG"
 alias lll="ls -alhG"
-alias ssh-homemini="ssh homemini@121.150.54.155"
 alias youtube-download="yt-dlp"
 
 # Preferred editor for local and remote sessions
